@@ -16,7 +16,6 @@ Once you run `create_package.rb` script, it will also init a git repository for 
 - create a new repository on github
 - navigate to your project folder
 - add a remote for the github repository: `git remote add origin YOUR_REPOSITORY_URL`
-- rename master branch to main: `git branch -m master main`
 - commit what you have so far
 - push the initial tag (it was created by the script): `git push origin v0.0.1`  
 **^ this step is important! without it the build will fail!**  
